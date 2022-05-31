@@ -1,23 +1,22 @@
-<<<<<<< Updated upstream
-    :root{
+:root {
     --nav-color: #E2E6E5;
     --font-black: #000000;
     --font-white: #F1ECE8;
     --hover-btn: #9eb28d
-   
 }
 
-*{
+* {
     box-sizing: border-box;
-   
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
+
 /*Alt styling til det i navigationsbaren er her*/
+
 .navbar {
     display: flex;
     position: fixed;
@@ -35,10 +34,9 @@ body{
     margin: .3rem;
 }
 
-
-
-.logo{
-    height:90px;
+.logo {
+    height: 90px;
+    border: none !important;
 }
 
 .navbar-links {
@@ -50,7 +48,6 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
-    
 }
 
 .navbar-links li {
@@ -98,18 +95,18 @@ body{
     width: 25%;
 }
 
-.icons i{
+.icons i {
     padding: 1rem;
     color: var(--font-black);
 }
 
-Header{
+Header {
     text-align: center;
     font-size: 36px;
     background-color: var(--nav-color)
 }
 
-.header-nav{
+.header-nav {
     width: 100%;
     height: 70px;
     position: fixed;
@@ -117,7 +114,9 @@ Header{
     z-index: 300
 }
 
+
 /*Styling til Forsiden*/
+
 .banner {
     background-image: url(img/skål_frugt_blå.png);
     background-size: cover;
@@ -126,7 +125,7 @@ Header{
     margin-top: 70px;
 }
 
-.banner h1{
+.banner h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 72px;
@@ -136,7 +135,7 @@ Header{
     color: var(--nav-color)
 }
 
-.btn{
+.btn {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -150,13 +149,14 @@ Header{
     border-radius: 100px;
     z-index: 3;
     border: 1px solid #707070;
+    background-image: none !important;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--hover-btn);
 }
 
-.products{
+.products {
     display: flex;
     columns: 3;
     justify-content: space-evenly
@@ -168,28 +168,32 @@ Header{
     margin-top: 100px;
     justify-content: space-evenly;
     margin-bottom: 100px;
-
+    height: auto;
 }
 
-.products-large a{
-  
-    background-size: contain;
+.products-large #family {
+    background-repeat: no-repeat;
+    height: auto;
 }
 
 .products-large h1 {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    width: 90%;
+    font-size: 3vw;
 }
 
-.products-large article{
+.products-large p {
     margin: auto;
     margin-top: 40px;
     width: 60%;
-}
-.products-large article a{
-  margin-top: 50%;
+    font-size: 1vw;
 }
 
-
+.products-large div {
+    height: 690px;
+}
 
 .box {
     background-color: var(--nav-color);
@@ -198,372 +202,181 @@ Header{
     background-size: cover;
     border-radius: 10px;
     margin-top: -50px;
-
 }
-.large{
+
+.large {
     width: 63%;
 }
 
-.products a:nth-child(1){
+.products a:nth-child(1) {
     background-image: url(img/barn.png);
     background-repeat: no-repeat;
-    
 }
-.products a:nth-child(2){
+
+.products a:nth-child(2) {
     background-image: url(img/baggrund_tallerken.png);
-    
     background-repeat: no-repeat
 }
-.products a:nth-child(3){
+
+.products a:nth-child(3) {
     background-image: url(img/istockphoto-1181149960-612x612.png);
 }
 
-
-#family{
-    background-image: url(img/jimmy-dean-Yl7Y8DhyzyY-unsplash.png)
+#family {
+    background-image: url(img/jimmy-dean-Yl7Y8DhyzyY-unsplash.png);
+    background-size: cover;
 }
 
 .products-btn {
     display: flex;
     margin-top: -20px;
-    
 }
+
+
+/*styling til om os siden*/
 
 
 /*Alt styling til det i footeren er her*/
 
-footer{
+footer {
     background-color: var(--nav-color);
     display: flex;
     height: 100%;
+    top: 100%;
 }
 
-.foot-webshop{
+.foot-webshop {
     list-style: none;
-   justify-content: center;
-   text-align: center;
-   width: 75%;
-   font-size: 12px;
-   line-height: 3;
-   text-transform: uppercase;
-   padding: 0;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+    font-size: 12px;
+    line-height: 3;
+    text-transform: uppercase;
+    padding: 0;
 }
 
-.foot-webshop header{
+.foot-webshop header {
     font-size: 15px;
     font-weight: bold;
 }
 
-
-.foot-webshop li a{
-    text-decoration: none; 
+.foot-webshop li a {
+    text-decoration: none;
     color: var(--font-black);
-   
 }
 
-.footer-copyright{
+.footer-copyright {
     display: flex;
     justify-content: space-evenly;
 }
 
-.footer-copyright a{
+.footer-copyright a {
     text-decoration: none;
     color: var(--font-black);
-    font-size: 12px;
+    font-size: 16px;
 }
 
-
-.seperate{
+.seperate {
     height: 20px;
     width: 100%;
     background-color: var(--font-black);
     border-radius: 10px;
 }
 
-hr{
+hr {
     width: 90%;
     height: 1px;
     border: none;
     background-color: var(--font-black);
- 
 }
 
-.SoMe{
+.SoMe {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.mobile{
+.mobile {
     display: none
 }
 
-.pc{
+.pc {
     display: flex;
 }
 
 
+/*Test*/
 
 @media (max-width: 800px) {
-
-/*Navigationsbar styling til Mobil/Tablet*/
+    /*Navigationsbar styling til Mobil/Tablet*/
     .navbar {
         flex-direction: column;
         align-items: flex-start;
         margin-top: -70px;
     }
-
     .toggle-button {
         display: flex;
-
     }
-
     .navbar-links {
         display: none;
         width: 100%;
     }
-
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
     }
-
     .navbar-links ul li {
         text-align: center;
     }
-
     .navbar-links ul li a {
         padding: .5rem 1rem;
         margin-top: 0;
     }
-
     .navbar-links.active {
         display: flex;
     }
-
-    .icons{
+    .icons {
         display: flex;
         width: 90%;
         justify-content: flex-end;
         position: absolute;
         margin-top: 15px;
     }
-
     .header-nav {
         display: none;
     }
-
     /*Styling til forsiden mobil/tablet*/
-
     .banner {
         height: 200px;
     }
-
-    .banner h1{
-    font-size: 26px;
-    padding-top: 30px;
+    .banner h1 {
+        font-size: 26px;
+        padding-top: 30px;
     }
-
-    .products-btn{
-        
+    .products {
+        columns: 2;
+        margin-top: 30px;
+    }
+    .box {
+        height: 200px;
+        width: 40%;
+    }
+    .products-btn {
         display: flex;
         column-count: 2;
-
     }
-
-
     /*Footer styling til Mobil/tablet*/
-
-    .foot-webshop{
+    .foot-webshop {
         columns: 1;
         justify-content: center;
         width: 45%;
         padding: 0;
     }
-
-   
-    .mobile{
+    .mobile {
         display: flex
     }
-
-    .pc{
+    .pc {
         display: none;
     }
-    
 }
-=======
-         :root {
-            --nav-color: #E2E6E5;
-            --font-black: #000000;
-            --font-white: #F1ECE8;
-        }
-        
-        * {
-            box-sizing: border-box;
-        }
-        
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        /*Alt styling til det i navigationsbaren er her*/
-        
-        .navbar {
-            display: flex;
-            position: relative;
-            align-items: center;
-            background-color: var(--nav-color);
-            color: white;
-        }
-        
-        .brand-title {
-            width: 25%;
-            font-size: 1.5rem;
-            margin: .5rem;
-        }
-        
-        .logo {
-            height: 60px
-        }
-        
-        .navbar-links {
-            height: 100%;
-            margin: 0 auto;
-        }
-        
-        .navbar-links ul {
-            display: flex;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .navbar-links li {
-            list-style: none;
-        }
-        
-        .navbar-links li a {
-            display: block;
-            text-decoration: none;
-            color: var(--font-black);
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-        
-        .navbar-links li a:hover {
-            font-weight: bolder;
-        }
-        
-        .active {
-            font-weight: bolder;
-        }
-        
-        .toggle-button {
-            position: absolute;
-            top: 1.75rem;
-            right: 1rem;
-            display: none;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 30px;
-            height: 21px;
-        }
-        
-        .toggle-button .bar {
-            height: 3px;
-            width: 100%;
-            background-color: var(--font-black);
-            border-radius: 10px;
-        }
-        
-        .icons {
-            text-decoration: none;
-            display: flex;
-            justify-content: flex-end;
-            width: 25%;
-        }
-        
-        .icons i {
-            padding: 1rem;
-            color: var(--font-black);
-        }
-        
-        Header {
-            text-align: center;
-            font-size: 36px;
-            background-color: var(--nav-color)
-        }
-        /*Alt styling til det i footeren er her*/
-        
-        footer {
-            background-color: var(--nav-color);
-            display: flex;
-        }
-        
-        .foot-webshop {
-            list-style: none;
-            justify-content: center;
-            text-align: center;
-            width: 75%;
-            font-size: 12px;
-            line-height: 2;
-            text-transform: uppercase;
-        }
-        
-        .foot-webshop header {
-            font-size: 15px;
-            font-weight: bold;
-        }
-        
-        .foot-webshop li a {
-            text-decoration: none;
-            color: var(--font-black);
-        }
-        
-        .SoMe {
-            display: flex;
-            justify-content: space-evenly;
-        }
-        
-        @media (max-width: 800px) {
-            /*Navigationsbar styling til Mobil/Tablet*/
-            .navbar {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .toggle-button {
-                display: flex;
-            }
-            .navbar-links {
-                display: none;
-                width: 100%;
-            }
-            .navbar-links ul {
-                width: 100%;
-                flex-direction: column;
-            }
-            .navbar-links ul li {
-                text-align: center;
-            }
-            .navbar-links ul li a {
-                padding: .5rem 1rem;
-                margin-top: 0;
-            }
-            .navbar-links.active {
-                display: flex;
-            }
-            .icons {
-                display: none;
-            }
-            /*Footer styling til Mobil/tablet*/
-            .foot-webshop {
-                margin: auto;
-                columns: 1;
-            }
-            .SoMe {
-                display: none;
-            }
-            .logo {
-                display: none;
-            }
-        }
->>>>>>> Stashed changes
