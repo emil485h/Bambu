@@ -5,6 +5,86 @@
     --hover-btn: #9eb28d
 }
 
+@font-face{
+    font-family: 'Organo';
+    src: url('fonts/Organo.ttf') format('truetype');
+    src: url('fonts/Organo.woff2') format('woff2'), 
+    url('fonts/Organo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica.ttf') format('truetype');
+    src: url('fonts/Helvetica.woff2') format('woff2'), 
+    url('fonts/Helvetica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica-Bold.ttf') format('truetype');
+    src: url('fonts/Helvetica-Bold.woff2') format('woff2'), 
+    url('fonts/Helvetica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica-Oblique.ttf') format('truetype');
+    src: url('fonts/Helvetica-Oblique.woff2') format('woff2'), 
+    url('fonts/Helvetica-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica-BoldOblique.ttf') format('truetype');
+    src: url('fonts/Helvetica-BoldOblique.woff2') format('woff2'), 
+    url('fonts/Helvetica-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Helvetica';
+    src: url('fonts/helvetica-light.ttf') format('truetype');
+    src: url('fonts/helvetica-light.woff2') format('woff2'), 
+    url('fonts/helvetica-light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Helvetica';
+    src: url('fonts/helvetica-compressed.otf') format('opentype');
+    src: url('fonts/helvetica-compressed.woff2') format('woff2'), 
+    url('fonts/helvetica-compressed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Helvetica';
+    src: url('fonts/helvetica-rounded-bold.otf') format('opentype');
+    src: url('fonts/helvetica-rounded-bold.woff2') format('woff2'), 
+    url('fonts/helvetica-rounded-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -70,7 +150,7 @@ body {
 }
 
 .navbar-linksm {
-    display: none;
+    display: flex;
     align-items: center;
     width: 100%;
 }
@@ -94,8 +174,12 @@ body {
     font-weight: bolder;
 }
 
-.navbar-linksm.active {
+/* .navbar-linksm.active {
     display: flex;
+} */
+
+#navbar-li {
+    display: none;
 }
 
 .toggle-button {
@@ -126,6 +210,7 @@ body {
 
 .brand-name {
     /* position: absolute; */
+    font-family: 'Organo';
     color: var(--font-black);
     font-size: 7vw;
     margin: 0;
@@ -144,6 +229,7 @@ Header {
 }
 
 .header-nav {
+    font-family: 'Organo';
     width: 100%;
     height: 70px;
     margin-top: -70px;

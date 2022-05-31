@@ -8,18 +8,13 @@
     <title>Bambu Forside</title>
     <link rel="stylesheet" href="main2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/648072ba1a.js" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
+
 </head>
 
 <body>
-
-
-
     <nav class="navbar">
         <div class="brand-title">
             <a href="#"><img src="img/LOGO 2.png" alt="Logo" class="logo"></a>
-
         </div>
         <h1 class="brand-name mobile">Bambu</h1>
         <div class="nav-desktop">
@@ -37,20 +32,18 @@
         <div class="icons">
             <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
             <a href=""><i class="fa-solid fa-user"></i></a>
-            <a href=""><i class="fa-solid fa-cart-shopping "></i></a>
-            <!-- <a href=""><i class="fa-solid fa-bars "></i></a> -->
-            <a href="#" class="toggle-button">
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <!-- <a onclick="openMenu()"> 
+                <i class="fa-solid fa-bars"></i></a> -->
+            <a href="#" class="toggle-button" onclick="openMenu()">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </a>
         </div>
-
-
-
     </nav>
-    <div class="navbar-linksm mobile">
-        <ul>
+    <div class="navbar-linksm">
+         <ul id="navbar-li">
             <li><a href="#">Forside</a></li>
             <li><a href="#">Produkter</a></li>
             <li><a href="#">Om os</a></li>
@@ -60,6 +53,9 @@
     </div>
 
 
+    
+    <script src="https://kit.fontawesome.com/648072ba1a.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
