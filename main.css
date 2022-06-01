@@ -5,6 +5,79 @@
     --hover-btn: #9eb28d
 }
 
+@font-face {
+    font-family: 'Organo';
+    src: url('fonts/Organo.ttf') format('truetype');
+    src: url('fonts/Organo.woff2') format('woff2'), url('fonts/Organo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica.ttf') format('truetype');
+    src: url('fonts/Helvetica.woff2') format('woff2'), url('fonts/Helvetica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica-Bold.ttf') format('truetype');
+    src: url('fonts/Helvetica-Bold.woff2') format('woff2'), url('fonts/Helvetica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica-Oblique.ttf') format('truetype');
+    src: url('fonts/Helvetica-Oblique.woff2') format('woff2'), url('fonts/Helvetica-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica-BoldOblique.ttf') format('truetype');
+    src: url('fonts/Helvetica-BoldOblique.woff2') format('woff2'), url('fonts/Helvetica-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/helvetica-light.ttf') format('truetype');
+    src: url('fonts/helvetica-light.woff2') format('woff2'), url('fonts/helvetica-light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* @font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/helvetica-compressed.otf') format('opentype');
+    src: url('fonts/helvetica-compressed.woff2') format('woff2'), url('fonts/helvetica-compressed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/helvetica-rounded-bold.otf') format('opentype');
+    src: url('fonts/helvetica-rounded-bold.woff2') format('woff2'), url('fonts/helvetica-rounded-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
 * {
     box-sizing: border-box;
 }
@@ -24,14 +97,13 @@ body {
     background-color: var(--nav-color);
     color: white;
     width: 100%;
-    margin-top: -30px;
-    z-index: 300
+    margin-top: 0px;
+    z-index: 300;
+    border-bottom: 1px solid black;
 }
 
 .brand-title {
     width: 25%;
-    margin-top: -60px;
-    margin: .3rem;
 }
 
 .logo {
@@ -40,17 +112,22 @@ body {
 }
 
 .navbar-links {
+    display: none;
     height: 100%;
     margin: 0 auto;
+    font-family: "Helvetica";
 }
 
 .navbar-links ul {
-    display: flex;
     margin: 0;
     padding: 0;
 }
 
 .navbar-links li {
+    list-style: none;
+}
+
+.navbar-linksm li {
     list-style: none;
 }
 
@@ -60,21 +137,50 @@ body {
     color: var(--font-black);
     padding: .7rem;
     margin-top: 2rem;
+    font-size: 2.5vw;
+    white-space: nowrap;
+}
+
+.navbar-linksm {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: "Helvetica";
+}
+
+.navbar-linksm li a {
+    display: block;
+    text-decoration: none;
+    color: var(--font-black);
+    padding: .7rem;
+    margin-top: 2rem;
+    font-size: 2.5vw;
+    white-space: nowrap;
+}
+
+.navbar-linksm ul {
+    padding-inline-start: 0;
+    margin: 0;
 }
 
 .navbar-links li a:hover {
     font-weight: bolder;
 }
 
-.active {
-    font-weight: bolder;
+
+/* .navbar-linksm.active {
+    display: flex;
+} */
+
+#navbar-li {
+    display: none;
 }
 
 .toggle-button {
     position: absolute;
-    top: 1.75rem;
+    top: 2.5rem;
     right: 1rem;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
@@ -92,12 +198,23 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
-    width: 25%;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.brand-name {
+    /* position: absolute; */
+    font-family: 'Organo';
+    color: var(--font-black);
+    font-size: 7vw;
+    margin: 0;
 }
 
 .icons i {
-    padding: 1rem;
+    padding: .6rem;
+    font-size: 26px;
     color: var(--font-black);
+    margin-top: 10px;
 }
 
 Header {
@@ -107,157 +224,76 @@ Header {
 }
 
 .header-nav {
-    width: 100%;
-    height: 70px;
-    position: fixed;
+    font-family: 'Organo';
+    width: 50%;
+    height: 100%;
     margin-top: -70px;
-    z-index: 300
+    z-index: 300;
+    font-size: 55px;
+    margin-bottom: 30px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-/*Styling til Forsiden*/
-
-.banner {
-    background-image: url(img/skål_frugt_blå.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    margin-top: 70px;
-}
-
-.banner h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 72px;
-    line-height: 1.3;
-    font-weight: normal;
-    padding-top: 110px;
-    color: var(--nav-color)
-}
-
-.btn {
+.navbar-linksm ul {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    text-decoration: none;
-    color: var(--font-black);
-    background-color: var(--nav-color);
-    width: 200px;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 100px;
-    z-index: 3;
-    border: 1px solid #707070;
-    background-image: none !important;
-}
-
-.btn:hover {
-    background-color: var(--hover-btn);
-}
-
-.products {
-    display: flex;
-    columns: 3;
-    justify-content: space-evenly
-}
-
-.products-large {
-    display: flex;
-    columns: 2;
-    margin-top: 100px;
-    justify-content: space-evenly;
-    margin-bottom: 100px;
-    height: auto;
-}
-
-.products-large #family {
-    background-repeat: no-repeat;
-    height: auto;
-}
-
-.products-large h1 {
+    position: absolute;
+    flex-direction: column;
+    padding-top: 450px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 90%;
-    font-size: 3vw;
+    background-color: var(--nav-color);
+    width: 100%;
 }
 
-.products-large p {
-    margin: auto;
-    margin-top: 40px;
-    width: 60%;
-    font-size: 1vw;
-}
-
-.products-large div {
-    height: 690px;
+.navbar-linksm ul a {
+    margin-top: 0px;
+    border-bottom: 1px solid #000000;
+    font-size: 3vh;
 }
 
 .box {
-    background-color: var(--nav-color);
-    width: 30%;
-    height: 449px;
-    background-size: cover;
-    border-radius: 10px;
-    margin-top: -50px;
-}
-
-.large {
-    width: 63%;
-}
-
-.products a:nth-child(1) {
-    background-image: url(img/barn.png);
-    background-repeat: no-repeat;
-}
-
-.products a:nth-child(2) {
-    background-image: url(img/baggrund_tallerken.png);
-    background-repeat: no-repeat
-}
-
-.products a:nth-child(3) {
-    background-image: url(img/istockphoto-1181149960-612x612.png);
-}
-
-#family {
-    background-image: url(img/jimmy-dean-Yl7Y8DhyzyY-unsplash.png);
-    background-size: cover;
-}
-
-.products-btn {
     display: flex;
-    margin-top: -20px;
+    width: 100%;
+}
+
+.mobile {
+    display: flex;
+}
+
+.pc {
+    display: none;
 }
 
 
-/*styling til om os siden*/
-
-
-/*Alt styling til det i footeren er her*/
+/*Footer styling*/
 
 footer {
     background-color: var(--nav-color);
     display: flex;
+    width: 100%;
     height: 100%;
-    top: 100%;
 }
 
 .foot-webshop {
     list-style: none;
     justify-content: center;
     text-align: center;
-    width: 75%;
-    font-size: 12px;
-    line-height: 3;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    line-height: 3.3;
     text-transform: uppercase;
     padding: 0;
+    font-family: "Helvetica";
+    font-weight: normal;
+    font-style: normal;
 }
 
 .foot-webshop header {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -269,26 +305,39 @@ footer {
 .footer-copyright {
     display: flex;
     justify-content: space-evenly;
+    height: 36px;
+    border-top: 1px solid var(--font-black);
+}
+
+.footer-copyright:nth-child(1) {
+    padding-top: 10px
 }
 
 .footer-copyright a {
     text-decoration: none;
     color: var(--font-black);
-    font-size: 16px;
+    font-size: 12px;
+    font-family: "Helvetica";
+    padding-top: 10px;
+    height: 24px;
 }
 
-.seperate {
-    height: 20px;
-    width: 100%;
-    background-color: var(--font-black);
-    border-radius: 10px;
+#copyright {
+    font-family: "Helvetica";
+    padding-left: 3px;
 }
 
-hr {
-    width: 90%;
-    height: 1px;
-    border: none;
-    background-color: var(--font-black);
+.pay {
+    margin-top: -5px;
+}
+
+#mobilepay {
+    height: 25px;
+    width: auto;
+    padding-left: 3px;
+    position: absolute;
+    margin-top: -5px;
+    object-fit: cover;
 }
 
 .SoMe {
@@ -297,86 +346,138 @@ hr {
     justify-content: space-evenly;
 }
 
+.banner {
+    margin-top: 95px;
+    width: 100%;
+}
+
 .mobile {
-    display: none
+    display: flex
 }
 
 .pc {
-    display: flex;
+    display: none;
 }
 
-
-/*Test*/
-
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     /*Navigationsbar styling til Mobil/Tablet*/
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: -70px;
+        flex-direction: row;
+        align-items: space-between;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-bottom: none;
+        height: 130px
+    }
+    .logo {
+        height: 145px
+    }
+    .logo-foot {
+        height: 260px
+    }
+    .brand-title {
+        width: 30vw
     }
     .toggle-button {
+        display: none;
+    }
+    .nav-desktop {
+        color: #000000;
         display: flex;
+        flex-direction: column;
+        width: 30vw
     }
     .navbar-links {
-        display: none;
+        display: flex;
+        align-items: center;
         width: 100%;
     }
     .navbar-links ul {
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
     }
     .navbar-links ul li {
         text-align: center;
     }
     .navbar-links ul li a {
-        padding: .5rem 1rem;
-        margin-top: 0;
+        padding: 1rem 1rem 0rem 1rem;
+        margin-top: 0px;
     }
-    .navbar-links.active {
+    .navbar-linksm {
+        display: none;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar-linksm li a {
+        display: block;
+        text-decoration: none;
+        color: var(--font-black);
+        padding: .7rem;
+        margin-top: 2rem;
+        font-size: 2.5vw;
+        white-space: nowrap;
+    }
+    .navbar-linksm.active {
         display: flex;
     }
     .icons {
         display: flex;
-        width: 90%;
+        width: 30vw;
         justify-content: flex-end;
-        position: absolute;
-        margin-top: 15px;
+        margin-right: 0;
+        margin-top: 20px;
     }
     .header-nav {
-        display: none;
-    }
-    /*Styling til forsiden mobil/tablet*/
-    .banner {
-        height: 200px;
-    }
-    .banner h1 {
-        font-size: 26px;
-        padding-top: 30px;
-    }
-    .products {
-        columns: 2;
-        margin-top: 30px;
-    }
-    .box {
-        height: 200px;
-        width: 40%;
-    }
-    .products-btn {
         display: flex;
-        column-count: 2;
+        justify-content: center;
+        height: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
-    /*Footer styling til Mobil/tablet*/
+    /*Footer styling*/
+    footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
     .foot-webshop {
         columns: 1;
         justify-content: center;
-        width: 45%;
+        width: 30vw;
         padding: 0;
+        line-height: 2;
     }
-    .mobile {
-        display: flex
+    .footer-copyright {
+        padding-left: 2.7%;
+        padding-right: 7.3%;
+    }
+    .brand-title-foot {
+        width: 30vw;
+    }
+    .SoMe-icons {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
+    .SoMe-icons header {
+        font-size: 1.6vw;
+        margin-top: 18px;
+        font-family: "Helvetica";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .SoMe {
+        margin-top: 30px;
+    }
+    .SoMe i {
+        color: var(--font-black)
     }
     .pc {
+        display: flex;
+    }
+    .mobile {
         display: none;
     }
 }

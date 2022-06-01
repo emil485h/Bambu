@@ -6,84 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bambu Forside</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/648072ba1a.js" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
+
 </head>
 
 <body>
-
-    <header class="header-nav">Bambu</header>
-
     <nav class="navbar">
-
         <div class="brand-title">
-            <a href="#"><img src="img/LOGO 2.png" alt="Logo" class="logo"></a>
+            <a href="#"><img src="img/LOGO.png" alt="Logo" class="logo"></a>
         </div>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-            <ul>
-
-                <li><a href="#" class="active">Forside</a></li>
-                <li><a href="#">Produkter</a></li>
-                <li><a href="#">Om os</a></li>
-                <li><a href="#">vejledning</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
+        <h1 class="brand-name mobile">Bambu</h1>
+        <div class="nav-desktop">
+            <img src="img/logo name.png" alt="Logo" class="header-nav"></img>
+            <div class="navbar-links pc">
+                <ul>
+                    <li><a href="#">Forside</a></li>
+                    <li><a href="#">Produkter</a></li>
+                    <li><a href="#">Om os</a></li>
+                    <li><a href="#">Vejledning</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div>
         </div>
         <div class="icons">
-            <a href=""><i class="fa-solid fa-magnifying-glass "></i></a>
-            <a href=""><i class="fa-solid fa-user "></i></a>
-            <a href=""><i class="fa-solid fa-cart-shopping "></i></a>
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <!-- <a onclick="openMenu()"> 
+                <i class="fa-solid fa-bars"></i></a> -->
+            <a href="#" class="toggle-button mobile" onclick="openMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
         </div>
     </nav>
+    <div class="navbar-linksm">
+        <ul id="navbar-li">
+            <li><a href="#">Forside</a></li>
+            <li><a href="#">Produkter</a></li>
+            <li><a href="#">Om os</a></li>
+            <li><a href="#">vejledning</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </div>
 
-    <section class="banner">
-        <H1>Lev bæredygtigt
-            <br> Køb bambus produkter
-        </H1>
-        <a class="btn" href="#">Køb her</a>
-    </section>
-
-    <section class="products">
-
-        <a href="#" class="box child"></a>
-        <a href="#" class="box"></a>
-        <a href="#" class="box pc"></a>
-
-
-    </section>
-    <section class="products-btn">
-
-        <a href="" class="btn">Til badeværelse</a>
-        <a href="" class="btn">Produkter</a>
-        <a href="" class="btn pc">Bambustøj</a>
-
-
-    </section>
-
-    <section class="products products-large">
-
-        <a href="#" class="box large pc" id="family"></a>
-        <div href="#" class="box">
-            <h1>Historien bag bambu</h1>
-            <p>Læs hvordan en helt almindelig børne-familie startede en bæredygtig virksomhed op.
-
-            </p>
-
-            <a href="#" class="btn">Læs mere</a>
-
-        </div>
-
-    </section>
+    <div class="box">
+        <img src="img/skål_frugt_blå.png" class="banner" alt="">
+    </div>
 
     <footer>
-        <div class="brand-title"><img src="img/LOGO 2.png" alt="Logo" class="logo pc"></div>
+        <div class="brand-title-foot pc"><img src="img/LOGO.png" alt="Logo" class="logo-foot pc"></div>
 
         <ul class="foot-webshop">
             <header class="header-foot">Webshop</header>
@@ -95,26 +69,29 @@
             <li><a href="">Persondatapolitik</a></li>
         </ul>
 
-        <div class="icons SoMe pc">
+        <div class="SoMe-icons pc">
             <header>følg os på de sociale medier</header>
-
-            <a href=""><i class="fa-brands fa-instagram fa-4x"></i></a>
-            <a href=""><i class="fa-brands fa-facebook-f fa-4x"></i></a>
-
+            <div class="SoMe">
+                <a href=""><i class="fa-brands fa-instagram fa-4x"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f fa-4x"></i></a>
+            </div>
         </div>
 
 
     </footer>
 
-
-
     <footer class="footer-copyright">
-        <a href="">copyright</a>
+        <a href=""><i class="fa-regular fa-copyright"><span id="copyright">Bambu 2022 </span></i></a>
         <a class="pc" href="">Mail: Mikkel@bambu.dk</a>
-        <a class="pc" href="">Tlf: 31 70 xx xx</a>
+        <a class="pc" href="">Tlf: 31 70 55 55</a>
         <a href="">CVR: 20 XX XX XX XX </a>
-        <a href="">betaling </a>
+        <a href=""><i class="fa-brands fa-cc-mastercard fa-2x pay"></i><i><img src="img/mobilepayLogo.png" id="mobilepay" alt=""></i> </a>
     </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/648072ba1a.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
