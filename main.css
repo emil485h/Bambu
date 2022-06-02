@@ -225,7 +225,7 @@ Header {
 
 .header-nav {
     font-family: 'Organo';
-    width: 50%;
+    width: 200px;
     height: 100%;
     margin-top: -70px;
     z-index: 300;
@@ -254,8 +254,102 @@ Header {
     font-size: 3vh;
 }
 
-.box {
+
+/*Knapper*/
+
+.btn {
+    background-color: var(--nav-color);
+    color: var(--font-black);
+    border: 1px solid #000000;
+    border-radius: 100px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
     display: flex;
+    font-size: 16px;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    font-family: "Helvetica";
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: var(--nav-color);
+    color: var(--font-black);
+    border: 1px solid #000000;
+    border-radius: 100px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    cursor: pointer;
+    font-family: "Helvetica";
+    font-weight: bold;
+}
+
+
+/*Styling til forsiden*/
+
+.box-banner {
+    background-image: url(img/skål_frugt_blå.png);
+    display: block;
+    height: 150px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 90px;
+    font-family: "Organo";
+}
+
+.box-banner h1 {
+    color: var(--font-white);
+    font-size: 3vh;
+    padding-top: 30px;
+}
+
+.container-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    margin-top: 20px
+}
+
+.box2 {
+    margin-top: 20px
+}
+
+.box {
+    float: left;
+    flex: 40%;
+    max-width: 40%;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    height: auto;
+    background-color: var(--nav-color);
+    border-radius: 10px;
+}
+
+.box img {
     width: 100%;
 }
 
@@ -295,6 +389,7 @@ footer {
 .foot-webshop header {
     font-size: 18px;
     font-weight: bold;
+    margin-top: 20px
 }
 
 .foot-webshop li a {
@@ -359,6 +454,10 @@ footer {
     display: none;
 }
 
+.hide {
+    opacity: none;
+}
+
 @media (min-width: 800px) {
     /*Navigationsbar styling til Mobil/Tablet*/
     .navbar {
@@ -368,6 +467,7 @@ footer {
         padding-left: 5%;
         padding-right: 5%;
         border-bottom: none;
+        margin-top: -90px;
         height: 130px
     }
     .logo {
@@ -437,6 +537,40 @@ footer {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    /*Forside styling*/
+    .box-banner {
+        height: 425px;
+        padding-top: 90px;
+    }
+    .box-banner h1 {
+        font-size: 3.5vw;
+        padding: 0;
+        margin-top: 0;
+    }
+    .box {
+        max-width: 30%;
+        flex: 30%;
+    }
+    .box1 {
+        margin-top: 0px
+    }
+    .box2 {
+        margin-top: 0px
+    }
+    .container-box {
+        margin-top: -70px;
+        flex-wrap: wrap;
+    }
+    .btn {
+        font-size: 1.5vw;
+        margin-top: 0%;
+        font-weight: bold;
+    }
+    @media (max-width: 1200px) {
+        .btn {
+            margin-top: 80px;
+        }
+    }
     /*Footer styling*/
     footer {
         padding-left: 5%;
@@ -463,7 +597,7 @@ footer {
     }
     .SoMe-icons header {
         font-size: 1.6vw;
-        margin-top: 18px;
+        margin-top: 40px;
         font-family: "Helvetica";
         font-weight: bold;
         text-transform: uppercase;
