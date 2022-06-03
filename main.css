@@ -330,6 +330,10 @@ Header {
     flex-wrap: wrap;
 }
 
+.push{
+    margin-top: 90px;
+}
+
 .container-btn {
     display: flex;
     flex-direction: row;
@@ -463,6 +467,10 @@ footer {
     opacity: none;
 }
 
+.product-push{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
 
 /* detaljeret side styling */
 
