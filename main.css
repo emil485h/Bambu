@@ -2,7 +2,12 @@
     --nav-color: #E2E6E5;
     --font-black: #000000;
     --font-white: #F1ECE8;
-    --hover-btn: #9eb28d
+    --hover-btn: #9eb28d;
+    --lyserød: #ffcae2;
+    --lyseblå: #D2EAFA;
+    --lysegrøn: #D0F4EA;
+    --gul: #F4FA9C;
+    --orange: #EB9C65;
 }
 
 @font-face {
@@ -458,6 +463,81 @@ footer {
     opacity: none;
 }
 
+
+/* detaljeret side styling */
+
+.detalside h2{
+    margin-top: 14vh;
+    margin-bottom: 0;
+    font-family: 'Organo';
+    font-size: 4vh;
+    text-align: center;
+}
+
+.productImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.product {
+    width: 30vh;
+}
+.fa-circle-chevron-right, .fa-circle-chevron-left{
+    font-size: 5vh;
+
+}
+
+.dotLarge {
+    height: 200px;
+    width: 400px;
+    border-top-right-radius: 400px;
+    border-top-left-radius: 400px;
+    transform: rotate(-90deg);
+    /* border-radius: 50%; */
+    display: inline-block;
+    position: absolute;
+    margin-top: -10vh;
+    left: 10.7vh;
+    z-index: -10;
+}
+
+.smallDots{
+    width: 100vw;
+    align-content: space-between;
+}
+
+.dot {
+    margin: 2vh 0vh 2vh 0vh;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.grøn{
+    background-color: var(--lysegrøn);
+}
+.lyserød{
+    background-color: var(--lyserød);
+}
+.blå{
+    background-color: var(--lyseblå);
+}
+.gul{
+    background-color: var(--gul);
+}
+.orange{
+    background-color: var(--orange);
+}
+
+
+
+
+
 @media (min-width: 800px) {
     /*Navigationsbar styling til Mobil/Tablet*/
     .navbar {
@@ -468,7 +548,7 @@ footer {
         padding-right: 5%;
         border-bottom: none;
         margin-top: -90px;
-        height: 130px
+        height: 130px;
     }
     .logo {
         height: 145px
