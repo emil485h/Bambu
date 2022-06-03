@@ -356,10 +356,15 @@ Header {
     height: auto;
     background-color: var(--nav-color);
     border-radius: 10px;
+    line-height: 0.5;
 }
 
 .box img {
     width: 100%;
+}
+
+.box h3, h4, p {
+text-align: center;
 }
 
 .mobile {
