@@ -168,10 +168,6 @@ body {
     margin: 0;
 }
 
-.navbar-links li a:hover {
-    font-weight: bolder;
-}
-
 
 /* .navbar-linksm.active {
     display: flex;
@@ -577,6 +573,19 @@ footer {
 .product-push {
     margin-top: 90px;
     margin-bottom: 90px;
+}
+
+#img-kanin-frugt {
+    margin-top: 0px;
+    opacity: 0;
+    width: 30%;
+    margin-left: -30%;
+    position: absolute;
+}
+
+#img-kanin-frugt:hover {
+    transition: .6s ease-in;
+    opacity: 1;
 }
 
 

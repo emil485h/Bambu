@@ -7,10 +7,11 @@
 
 function openMenu() {
     var x = document.getElementById("navbar-li");
-    if (x.style.display === "flex"){
+    if (x.style.display === "flex") {
         x.style.display = "none";
     } else {
         x.style.display = "flex";
     }
 }
 
+var voverimg = document.getElementById("overimg");
