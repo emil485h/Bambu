@@ -52,28 +52,92 @@
         </ul>
     </div>
 
-
+<!-- Detaljeret produktside start -->
+<!-- Produkt billeder -->
+    <h2 class="title pc">Kanin tallerken</h2>
     <section class="detalside">
-        <h2>Kanin tallerken</h2>
+        <section class="productSection">
+            <h2 class="mobile">Kanin tallerken</h2>
+            <div class="productImg">
+                <i onclick="changeImg()"class="fa-solid fa-circle-chevron-left"></i>
+                <!-- <div id="products"> -->
+                    <div id="productFront" >
+                        <img class="product hide" src="img/kaningreen.png" alt="Kanintallerken">
+                        <img class="product valgt" src="img/kaninpink.png" alt="Kanintallerken">
+                        <img class="product hide" src="img/kaninblue.png" alt="Kanintallerken">
+                        <img class="product hide" src="img/kaninyellow.png" alt="Kanintallerken">
+                        <img class="product hide" src="img/kaninorange.png" alt="Kanintallerken">
+                        <img class="product hide" src="img/kaninsidegreen.png" alt="Kanintallerken fra siden">
+                        <img class="product valgt hide" src="img/kaninsidepink.png" alt="Kanintallerken fra siden">
+                        <img class="product hide" src="img/kaninsideblue.png" alt="Kanintallerken fra siden">
+                        <img class="product hide" src="img/kaninsideyellow.png" alt="Kanintallerken fra siden">
+                        <img class="product hide" src="img/kaninsideorange.png" alt="Kanintallerken fra siden">
+                    </div>
+                    <!-- <div id="productSide">
 
+                    </div> -->
+                    
+                   
+                <!-- </div> -->
+                <i onclick="changeImg()" class="fa-solid fa-circle-chevron-right"></i>
+            </div>
 
-        <div class="productImg">
-            <i class="fa-solid fa-circle-chevron-left"></i>
-            <img class="product" src="img/kaninrød.png" alt="Kanintallerken">
-            <i class="fa-solid fa-circle-chevron-right"></i>
+<!-- Stor halvcirkel -->
+            <span id="dotLarge" class="lyserød"></span>
 
+<!-- Små cirkler -->
+            <div class="smallDots">
+                <span onclick="colorGreen()" class="dot grøn"></span>
+                <span onclick="colorPink()" class="dot lyserød active"></span>
+                <span onclick="colorBlue()" class="dot blå"></span>
+                <span onclick="colorYellow()" class="dot gul"></span>
+                <span onclick="colorOrange()" class="dot orange"></span>
+            </div>
+        </section>
 
+<!-- Beskrivelse -->
+        <section class="textbox kaninBe lyserød">
+            <h3>Beskrivelse</h3>
+            <p class="beskrivelse">Kanin spisesættet til dine børn er lavet af bæredygtigt bambus og er fri for kemikalier.
+                <br> <br>Den aftagelige silicone bund på tallerkenen fungere som en sugekop.
+                <br><br>Skeen er udstyret med silicone tip og bambus skaft. <br><br>
+                Anbefales til børn i alderen 6mdr til 4år. </p>
+            <p class="vigtig">Tåler ikke opvaskemaskine, ovn eller mikroovn.</p>
+            <h4 class="pris">199,95DKK</h4>
+        </section>
+    </section>
+
+<!-- Forslag af andre produkter -->
+    <section class="persuasive">
+        <h3>Du vil måske også synes om</h3>
+        <div class="forslag">
+            <a href=""><img class="pforslag stor" src="img/bowlyellow.png" alt=""></a>
+            <a href=""><img class="pforslag" src="img/owlorange.png" alt=""></a>
+            <a href=""><img class="pforslag" src="img/foxorange.png" alt=""></a>
         </div>
-        <span class="dotLarge lyserød"></span>
+    </section>
 
-        <div class="smallDots">
-            <span class="dot grøn"></span>
-            <span class="dot lyserød"></span>
-            <span class="dot blå"></span>
-            <span class="dot gul"></span>
-            <span class="dot orange"></span>
+    <section class="huskKokos">
+        <h2>Husk kokosolie</h2>
+
+        <!-- Stor kvart cirkel -->
+        <span id="dotLarge2" class="lyserød pc"></span>
+
+        <div class="olie">
+            <div class="olieCon">
+                <img class="kokosBillede" src="img/olie.png" alt="billede af kokosolie">
+            </div>
+            <section class="textbox lyserød">
+                <h3>Beskrivelse</h3>
+                <p class="beskrivelse bkokos">
+                    Ved at benytte kokosolie til børneservicen er du med til at gøre holdbarheden længere 
+                    af dine produkter og holde på designets udseende. <br>
+                    Kokosolien er et naturprodukt som går ind og giver fugt til bambusfibrene og medvirker til at skåle,
+                     skeer og tallerkner ikke begynder at gå fra hinanden. 
+                <h4 class="pris">39,95DKK</h4>
+            </section>
+            <img class="behandling pc" src="img/douglas-bagg-rxorF_Bs0ak-unsplash.jpg" alt="pårføring af kokosolie">
         </div>
-
 
     </section>
 
@@ -83,9 +147,7 @@
 
 
 
-
-
-
+<!-- Footer start -->
     <footer>
         <div class="brand-title-foot pc"><img src="img/LOGO.png" alt="Logo" class="logo-foot pc"></div>
 
