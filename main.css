@@ -432,9 +432,7 @@ img {
     width: 100%;
 }
 
-.box h3,
-h4,
-p {
+.box h3, .box h4, .box p {
     text-align: center;
 }
 
@@ -1224,8 +1222,12 @@ hr {
     .logo {
         height: 110px
     }
+    .brand-title-foot{
+        align-items: center;
+        /* justify-content: center; */
+    }
     .logo-foot {
-        height: 260px
+        height: 20vw
     }
     .brand-title {
         width: 30vw
