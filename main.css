@@ -275,12 +275,15 @@ Header {
     display: flex;
     font-size: 12px;
     justify-content: center;
+    
     cursor: pointer;
     position: relative;
     font-family: "Helvetica";
     font-weight: bold;
     margin-top: 0px;
 }
+
+
 
 .btn-primary {
     background-color: var(--nav-color);
@@ -2065,8 +2068,5 @@ hr {
     margin-top: 0%;
 }
 
-@media (max-width: 1200px) {
-    .btn {
-        margin-top: 80px;
-    }
-}
+
+
