@@ -1591,11 +1591,7 @@ hr {
 } */
     /* Husk kokosolie slut */
     /* detaljeret side slut */
-    @media (max-width: 1200px) {
-        .btn {
-            margin-top: 80px;
-        }
-    }
+  
     /*Footer styling*/
     footer {
         padding-left: 5%;
@@ -2066,5 +2062,8 @@ hr {
     margin-top: 0%;
 }
 
-
+@media (max-width: 1200px) {
+    .btn {
+        margin-top: 80px;
+    }
 }
