@@ -113,7 +113,7 @@ body {
 }
 
 .logo {
-    height: 90px;
+    height: 75px;
     border: none !important;
 }
 
@@ -908,9 +908,9 @@ section .dotLarge {
     text-align: left;
     font-size: 18px;
     margin-top: -20px;
-    
 }
-.farve{
+
+.farve {
     font-size: 16px;
     text-align: left;
     margin-top: -20px;
@@ -918,90 +918,105 @@ section .dotLarge {
     font-weight: normal;
     font-style: normal;
 }
-.antal{
+
+.antal {
     font-size: 16px;
     text-align: left;
     margin-top: -20px;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-style: normal;
 }
-.fjern{
+
+.fjern {
     font-size: 14px;
-   text-align: right;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
+    text-align: right;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .linje {
     width: 90%;
 }
-.kokosimg{
-   width: 100px;
-   height: 145px;
-   margin-right: 200px;
+
+.kokosimg {
+    width: 100px;
+    height: 145px;
+    margin-right: 200px;
 }
 
 .prisolie {
     margin-top: -80px;
-   padding-left: 192px;
+    padding-left: 192px;
     position: absolute;
 }
-.Mængde{
-   font-size: 16px;
-   text-align: left;
-   margin-top: -20px;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
+
+.Mængde {
+    font-size: 16px;
+    text-align: left;
+    margin-top: -20px;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-style: normal;
 }
-.kokos{
-   text-align: left;
-   font-size: 18px;
-   margin-top: -20px;
+
+.kokos {
+    text-align: left;
+    font-size: 18px;
+    margin-top: -20px;
 }
-.boxpris{
-   margin-top: auto;
+
+.boxpris {
+    margin-top: auto;
 }
-.sub{
-   text-align: left;
-   font-size: 20px;
-}
-.prissub{
-   text-align: right;
-   font-size: 20px;
-   margin-top:-37px ;
-}
-.lev{
-   text-align: left;
-   font-size: 20px;
-}
-.prislev{
-   text-align: right;
-   font-size: 20px;
-   margin-top: -37px;
-}
-.ialt{
-   font-size: 20px;
-   text-align: left;
-}
-.prisialt{
-   text-align: right;
-   font-size: 20px;
-}
-.prisknap{
-    border-radius:20px ;
+
+.sub {
+    text-align: left;
     font-size: 20px;
-    margin-left: -150px ;
-    position: absolute; 
-    margin-top: -30px;  
 }
-.rabatkode{
+
+.prissub {
+    text-align: right;
+    font-size: 20px;
+    margin-top: -37px;
+}
+
+.lev {
+    text-align: left;
+    font-size: 20px;
+}
+
+.prislev {
+    text-align: right;
+    font-size: 20px;
+    margin-top: -37px;
+}
+
+.ialt {
+    font-size: 20px;
+    text-align: left;
+}
+
+.prisialt {
+    text-align: right;
+    font-size: 20px;
+}
+
+.prisknap {
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: -150px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.rabatkode {
     text-align: left;
     font-size: 3vh;
 }
-.rabatkasse{
+
+.rabatkasse {
     text-align: left;
     margin-top: -20px;
 }
@@ -1009,21 +1024,25 @@ section .dotLarge {
 .rabat {
     margin-top: auto;
 }
-.tilf{
-   border-radius: 20px;
-   font-size: 20px;
-   margin-right: -120px;
+
+.tilf {
+    border-radius: 20px;
+    font-size: 20px;
+    margin-right: -120px;
 }
-.betaling{
-   text-align: left;
-   margin-top: -20px;
+
+.betaling {
+    text-align: left;
+    margin-top: -20px;
 }
-.mpay{
-   margin-left: -120px;
+
+.mpay {
+    margin-left: -120px;
 }
-.andre{
-   font-size: 30px;
-   text-align: center;
+
+.andre {
+    font-size: 30px;
+    text-align: center;
 }
 
 .andre1 {
@@ -1203,7 +1222,7 @@ hr {
         height: 130px;
     }
     .logo {
-        height: 145px
+        height: 110px
     }
     .logo-foot {
         height: 260px
@@ -1860,40 +1879,43 @@ hr {
         max-height: 90px;
     }
 }
-#flex2{
+
+#flex2 {
     flex-direction: column;
-    
 }
-.inkobs{
+
+.inkobs {
     height: 60vw;
     width: 55vw;
     flex: 50%;
 }
 
-.kaninimg{
+.kaninimg {
     margin-left: -400px;
-    width:12vw ;
+    width: 12vw;
     height: 10vw;
 }
-.boxkurv h3{
+
+.boxkurv h3 {
     padding-top: 20px;
 }
 
-.din{
+.din {
     font-size: 30px;
-
 }
-.kaninpris{
+
+.kaninpris {
     padding-left: 530px;
     position: absolute;
     margin-top: -150px;
 }
-.kanin{
- padding-left: 250px;
- font-size: 20px;
-    
+
+.kanin {
+    padding-left: 250px;
+    font-size: 20px;
 }
-.farve{
+
+.farve {
     font-size: 16px;
     text-align: left;
     margin-top: -20px;
@@ -1901,120 +1923,146 @@ hr {
     font-weight: normal;
     font-style: normal;
 }
-.antal{
+
+.antal {
     font-size: 16px;
     text-align: left;
     margin-top: -20px;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-style: normal;
 }
-.fjern{
+
+.fjern {
     font-size: 14px;
-   text-align: right;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
+    text-align: right;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-style: normal;
 }
-.linje{
+
+.linje {
     width: 90%;
 }
-.kokosimg{
-   width: 100px;
-   height: 145px;
-   margin-right: 200px;
+
+.kokosimg {
+    width: 100px;
+    height: 145px;
+    margin-right: 200px;
 }
-.prisolie{
+
+.prisolie {
     margin-top: -80px;
-   padding-left: 192px;
+    padding-left: 192px;
     position: absolute;
 }
-.Mængde{
-   font-size: 16px;
-   text-align: left;
-   margin-top: -20px;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
+
+.Mængde {
+    font-size: 16px;
+    text-align: left;
+    margin-top: -20px;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-style: normal;
 }
-.kokos{
-   text-align: left;
-   font-size: 18px;
-   margin-top: -20px;
+
+.kokos {
+    text-align: left;
+    font-size: 18px;
+    margin-top: -20px;
 }
-.boxpris{
-   margin-top: auto;
-   height: 18vw;
-   width: 35vw;
+
+.boxpris {
+    margin-top: auto;
+    height: 18vw;
+    width: 35vw;
 }
-.sub{
-   text-align: left;
-   font-size: 20px;
-}
-.prissub{
-   text-align: right;
-   font-size: 20px;
-   margin-top:-37px ;
-}
-.lev{
-   text-align: left;
-   font-size: 20px;
-}
-.prislev{
-   text-align: right;
-   font-size: 20px;
-   margin-top: -37px;
-}
-.ialt{
-   font-size: 20px;
-   text-align: left;
-   margin-top: -30px;
-}
-.prisialt{
-   text-align: right;
-   font-size: 20px;
-}
-.prisknap{
-    border-radius:20px ;
+
+.sub {
+    text-align: left;
     font-size: 20px;
-    margin-left: -150px ;
-    position: absolute; 
-    margin-top: -30px;  
 }
-.rabatkode{
+
+.prissub {
+    text-align: right;
+    font-size: 20px;
+    margin-top: -37px;
+}
+
+.lev {
+    text-align: left;
+    font-size: 20px;
+}
+
+.prislev {
+    text-align: right;
+    font-size: 20px;
+    margin-top: -37px;
+}
+
+.ialt {
+    font-size: 20px;
+    text-align: left;
+    margin-top: -30px;
+}
+
+.prisialt {
+    text-align: right;
+    font-size: 20px;
+}
+
+.prisknap {
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: -150px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.rabatkode {
     text-align: left;
     font-size: 25px;
 }
-.rabatkasse{
+
+.rabatkasse {
     text-align: left;
     margin-top: -20px;
 }
-.rabat{
-   margin-top: auto;
-   width: 35vw;
-   height: 20.4vw;
+
+.rabat {
+    margin-top: auto;
+    width: 35vw;
+    height: 20.4vw;
 }
-.tilf{
-   border-radius: 20px;
-   font-size: 20px;
-   margin-right: -120px;
+
+.tilf {
+    border-radius: 20px;
+    font-size: 20px;
+    margin-right: -120px;
 }
-.betaling{
-   text-align: left;
-   margin-top: -20px;
+
+.betaling {
+    text-align: left;
+    margin-top: -20px;
 }
-.andre{
-   font-size: 30px;
-   text-align: center;
+
+.andre {
+    font-size: 30px;
+    text-align: center;
 }
-.andre1{ 
-   display: flex;
-   justify-content: space-evenly;
+
+.andre1 {
+    display: flex;
+    justify-content: space-evenly;
 }
-.mpay{
+
+.mpay {
     height: 88px;
 }
-.boxkurv{
+
+.boxkurv {
     margin-top: 0%;
 }
+
+
 }
