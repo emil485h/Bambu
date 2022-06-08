@@ -778,7 +778,7 @@ section .dotLarge {
 }
 
 .btn-tilf {
-    margin-left: 78vw;
+    margin-left: 79%;
 }
 
 .olie .btn-tilf {
@@ -1113,16 +1113,100 @@ section .dotLarge {
     margin-top: 30px;
 }
 
+.banner-payment img {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
 .banner-payment h1 {
     text-align: center;
     color: #E2E6E5;
     font-family: 'organo';
-    margin-top: -25%;
+    font-size: 3vw;
+    margin-top: -35%;
 }
 
 form img {
     width: 20%;
     margin-left: 20px;
+}
+
+
+/*Kurv*/
+
+.section-beløb {
+    line-height: 1
+}
+
+.section-kurv p {
+    text-align: left;
+    margin: 0;
+}
+
+.kurv-img {
+    width: 40%;
+}
+
+.kurv-img2 {
+    width: 20%;
+}
+
+p.kurv-fjern {
+    text-align: right;
+}
+
+.beløb {
+    text-align: right;
+    margin-top: -40px;
+}
+
+hr {
+    color: black
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-column p {
+    display: flex;
+    flex: 45%;
+    width: 45%
+}
+
+.pull {
+    margin-top: 30px;
+}
+
+.rabat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rabat img {
+    width: 35%;
+}
+
+.købte-også {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.købte-også header {
+    background-color: transparent;
+}
+
+.købte-også div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.købte-også div img {
+    width: 20%;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 800px) {
@@ -1226,6 +1310,9 @@ form img {
         max-height: 30vw;
         max-width: 62.5%;
     }
+    .box4 img {
+        object-fit: contain;
+    }
     .box5 {
         max-height: 30vw;
         max-width: 30%;
@@ -1317,6 +1404,7 @@ form img {
     }
     .kaninBe {
         margin: 0vh 4vh 0vh 4vh;
+        width: 47%;
     }
     .persuasive {
         margin-top: 5vw;
@@ -1765,10 +1853,29 @@ form img {
         text-align: center;
         color: #E2E6E5;
         font-family: 'organo';
-        margin-top: -20%;
+        font-size: 2vw;
+        margin-top: -37%;
     }
     .container-row {
         display: flex;
         flex-direction: row;
+        columns: 2;
+    }
+    /*Kurv*/
+    .pull {
+        height: 60%;
+    }
+    .section-rabat {
+        height: 19.5vw;
+        position: absolute;
+        right: 0.5%;
+        margin-top: -21%;
+    }
+    .section-rabat h2 {
+        margin-bottom: 0px
+    }
+    .section-rabat img {
+        max-width: 120px;
+        max-height: 90px;
     }
 }
