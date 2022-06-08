@@ -831,33 +831,33 @@ section .dotLarge{
     background-color: #F1ECE8;
     margin-top: 115px;
     text-align: center;
-    font-size: 20px;
+    font-size: 3vh;
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
 }
 .kaninimg{
-    width:130px ;
-    height: 100px;
-    margin-right: 185px;
+    width: 35% ;
+    height: 30%;
+    margin-right: 90%;
     margin-top: -20px;
+    margin-left: auto;
 }
 .boxkurv h3{
     padding-top: 20px;
 }
 .kaninpris{
     padding-left: 192px;
-    position: absolute;
     margin-top: -60px;
 }
 .kanin{
     text-align: left;
-    font-size: 18px;
-    margin-top: -20px;
+    font-size: 3vh;
+    margin-top: -7px;
     
 }
 .farve{
-    font-size: 16px;
+    font-size: 1.5vh;
     text-align: left;
     margin-top: -20px;
     font-family: 'Helvetica';
@@ -865,15 +865,15 @@ section .dotLarge{
     font-style: normal;
 }
 .antal{
-    font-size: 16px;
+    font-size: 1.5vh;
     text-align: left;
-    margin-top: -20px;
+    margin-top: -15px;
    font-family: 'Helvetica';
    font-weight: normal;
    font-style: normal;
 }
 .fjern{
-    font-size: 14px;
+    font-size: 1.5vh;
    text-align: right;
    font-family: 'Helvetica';
    font-weight: normal;
@@ -883,67 +883,54 @@ section .dotLarge{
     width: 90%;
 }
 .kokosimg{
-   width: 100px;
-   height: 145px;
-   margin-right: 200px;
+   width: 15%;
+   height: 10%;
+   margin-right: 90%;
+   margin-left: auto;
 }
 .prisolie{
     margin-top: -80px;
    padding-left: 192px;
-    position: absolute;
 }
-.Mængde{
-   font-size: 16px;
-   text-align: left;
-   margin-top: -20px;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
-}
-.kokos{
-   text-align: left;
-   font-size: 18px;
-   margin-top: -20px;
+.oil{
+    margin-top: 36px;
 }
 .boxpris{
    margin-top: auto;
 }
 .sub{
    text-align: left;
-   font-size: 20px;
+   font-size: 2.5vh;
 }
 .prissub{
    text-align: right;
-   font-size: 20px;
+   font-size: 2.5vh;
    margin-top:-37px ;
 }
 .lev{
    text-align: left;
-   font-size: 20px;
+   font-size: 2.5vh;
 }
 .prislev{
    text-align: right;
-   font-size: 20px;
+   font-size: 2.5vh;
    margin-top: -37px;
 }
 .ialt{
-   font-size: 20px;
+   font-size: 2.5vh;
    text-align: left;
 }
 .prisialt{
    text-align: right;
-   font-size: 20px;
-}
-.prisknap{
-    border-radius:20px ;
-    font-size: 20px;
-    margin-left: -150px ;
-    position: absolute; 
-    margin-top: -30px;  
+   font-size: 2.5vh;
 }
 .rabatkode{
     text-align: left;
-    font-size: 25px;
+    font-size: 3vh;
+}
+#tilf{
+    margin-top: -30px;
+    margin-left: 190px;
 }
 .rabatkasse{
     text-align: left;
@@ -952,20 +939,12 @@ section .dotLarge{
 .rabat{
    margin-top: auto;
 }
-.tilf{
-   border-radius: 20px;
-   font-size: 20px;
-   margin-right: -120px;
-}
 .betaling{
    text-align: left;
    margin-top: -20px;
 }
-.mpay{
-   margin-left: -120px;
-}
 .andre{
-   font-size: 30px;
+   font-size: 3vh;
    text-align: center;
 }
 .andre1{ 
@@ -1471,7 +1450,7 @@ section .dotLarge2{
 }
 
 .kaninimg{
-    margin-left: -400px;
+    margin-left: -40px;
     width:12vw ;
     height: 10vw;
 }
@@ -1484,63 +1463,35 @@ section .dotLarge2{
 
 }
 .kaninpris{
-    padding-left: 530px;
-    position: absolute;
-    margin-top: -150px;
+    
 }
 .kanin{
- padding-left: 250px;
- font-size: 20px;
+ 
     
 }
 .farve{
-    font-size: 16px;
-    text-align: left;
-    margin-top: -20px;
-    font-family: 'Helvetica';
-    font-weight: normal;
-    font-style: normal;
+    
 }
 .antal{
-    font-size: 16px;
-    text-align: left;
-    margin-top: -20px;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
+    
 }
 .fjern{
-    font-size: 14px;
-   text-align: right;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
+    
 }
 .linje{
     width: 90%;
 }
 .kokosimg{
-   width: 100px;
-   height: 145px;
-   margin-right: 200px;
+ 
 }
 .prisolie{
-    margin-top: -80px;
-   padding-left: 192px;
-    position: absolute;
+  
 }
 .Mængde{
-   font-size: 16px;
-   text-align: left;
-   margin-top: -20px;
-   font-family: 'Helvetica';
-   font-weight: normal;
-   font-style: normal;
+   
 }
 .kokos{
-   text-align: left;
-   font-size: 18px;
-   margin-top: -20px;
+   
 }
 .boxpris{
    margin-top: auto;
@@ -1548,46 +1499,31 @@ section .dotLarge2{
    width: 35vw;
 }
 .sub{
-   text-align: left;
-   font-size: 20px;
+   
 }
 .prissub{
-   text-align: right;
-   font-size: 20px;
-   margin-top:-37px ;
+   
 }
 .lev{
-   text-align: left;
-   font-size: 20px;
+   
 }
 .prislev{
-   text-align: right;
-   font-size: 20px;
-   margin-top: -37px;
+  
 }
 .ialt{
-   font-size: 20px;
-   text-align: left;
-   margin-top: -30px;
+  
 }
 .prisialt{
-   text-align: right;
-   font-size: 20px;
+   
 }
 .prisknap{
-    border-radius:20px ;
-    font-size: 20px;
-    margin-left: -150px ;
-    position: absolute; 
-    margin-top: -30px;  
+    
 }
 .rabatkode{
-    text-align: left;
-    font-size: 25px;
+   
 }
 .rabatkasse{
-    text-align: left;
-    margin-top: -20px;
+    
 }
 .rabat{
    margin-top: auto;
@@ -1595,17 +1531,13 @@ section .dotLarge2{
    height: 20.4vw;
 }
 .tilf{
-   border-radius: 20px;
-   font-size: 20px;
-   margin-right: -120px;
+ 
 }
 .betaling{
-   text-align: left;
-   margin-top: -20px;
+ 
 }
 .andre{
-   font-size: 30px;
-   text-align: center;
+  
 }
 .andre1{ 
    display: flex;
