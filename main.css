@@ -976,6 +976,20 @@ section .dotLarge{
    height: 49px;
 }
 
+/*Informationside styling*/
+
+.section-formular {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    background-color: #F1ECE8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
 @media (min-width: 800px) {
     /*Navigationsbar styling til Mobil/Tablet*/
     .navbar {
