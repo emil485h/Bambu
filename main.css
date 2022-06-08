@@ -1319,7 +1319,8 @@ hr {
         max-height: 30vw;
         max-width: 30%;
         font-family: "Helvetica";
-        line-height: 1
+        line-height: 1;
+       
     }
     .box5 h2 {
         font-size: 26px;
@@ -1350,6 +1351,8 @@ hr {
         width: 60%
     }
     .btn4 {
+       
+        margin-top: 17vw;
         width: 60%
     }
     /* footer slut */
