@@ -21,8 +21,8 @@
             <img src="img/logo name.png" alt="Logo" class="header-nav"></img>
             <div class="navbar-links pc">
                 <ul>
-                    <li><a href="#">Forside</a></li>
-                    <li><a href="#">Produkter</a></li>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="produktside.html">Produkter</a></li>
                     <li><a href="#">Om os</a></li>
                     <li><a href="#">Vejledning</a></li>
                     <li><a href="#">Kontakt</a></li>
@@ -32,7 +32,7 @@
         <div class="icons">
             <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
             <a href=""><i class="fa-solid fa-user"></i></a>
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="indkøbskurv.html"><i class="fa-solid fa-cart-shopping"></i></a>
             <!-- <a onclick="openMenu()"> 
                 <i class="fa-solid fa-bars"></i></a> -->
             <a href="#" class="toggle-button mobile" onclick="openMenu()">
@@ -44,14 +44,14 @@
     </nav>
     <div class="navbar-linksm">
         <ul id="navbar-li">
-            <li><a href="#">Forside</a></li>
-            <li><a href="#">Produkter</a></li>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="produktside.html">Produkter</a></li>
             <li><a href="#">Om os</a></li>
             <li><a href="#">vejledning</a></li>
             <li><a href="#">Kontakt</a></li>
         </ul>
     </div>
-    <header class="product-push pc">kh</header>
+    <!-- <header class="product-push pc">kh</header>
     <section class="flex">
     <section>
         <div class="boxkurv inkobs">
@@ -109,7 +109,77 @@
         <img src="img/åkandeorange.png" alt="">
         <img src="img/rævskegrøn.png" alt="">
     </div>
+    </section> -->
+
+    <header class="product-push pc"></header>
+    <div class="container-row">
+        <section class="section-formular section-kurv">
+            <header>Din indkøbskurv</header>
+            <img class="kurv-img" src="img/kaningreen.png" alt="">
+            <h2 class="beløb">199,95 dkk</h2>
+            <h3>Kanin tallerken</h3>
+            <p>Farve: lyserød</p>
+            <p>antal: 1</p>
+            <p class="kurv-fjern">fjern fra kurv</p>
+
+            <hr class="linje">
+
+            <img class="kurv-img2" src="img/olie.png" alt="">
+            <h2 class="beløb">39,95 dkk</h2>
+            <h3>kokos olie</h3>
+            <p>mængde: 200ml</p>
+            <p>antal: 1</p>
+            <p class="kurv-fjern">fjern fra kurv</p>
+
+        </section>
+
+
+
+        <section class="section-formular pull">
+            <header>Pris i alt</header>
+            <div class="container-column">
+                <p>sub total</p>
+                <p>239,90 dkk</p>
+                <p>Levering</p>
+                <p>39 dkk</p>
+
+                <hr class="linje">
+                <h2>Pris i alt (inkl moms)</h2>
+                <p>178,90 dkk</p>
+                <a href="Informationside.html" class="btn-primary">Til kassen</a>
+
+            </div>
+        </section>
+
+
+
+    </div>
+
+    <section class="section-formular payment section-rabat">
+        <h2>Tilføj rabatkode</h2>
+
+        <input type="text" id="fname">
+
+        <hr class="linje">
+
+        <h2>Betalings muligheder</h2>
+        <div class="rabat">
+            <img class="img-pay" src="img/MobilepayLogo.png" alt="MobilePay logo">
+            <img class="img-pay" src="img/Icon payment-dankort.png" alt="Dankort logo">
+        </div>
     </section>
+
+    <section class="købte-også">
+        <header>Anre købte også disse</header>
+        <div>
+            <img src="img/raevskegroen.JPG" alt="">
+            <img src="img/faarroed.JPG" alt="">
+            <img src="img/uglegroen.JPG" alt="">
+        </div>
+    </section>
+
+
+
 
     <footer>
         <div class="brand-title-foot pc"><img src="img/LOGO.png" alt="Logo" class="logo-foot pc"></div>

@@ -55,6 +55,7 @@
     font-display: swap;
 }
 
+
 /* @font-face {
     font-family: 'Helvetica';
     src: url('fonts/helvetica-light.ttf') format('truetype');
@@ -566,9 +567,6 @@ footer {
     display: none;
 }
 
-
-
-
 .product-push {
     margin-top: 90px;
     margin-bottom: 90px;
@@ -590,31 +588,40 @@ footer {
 
 /* detaljeret side styling */
 
+
 /* farver */
-.grøn{
+
+.grøn {
     background-color: var(--lysegrøn);
 }
-.lyserød{
+
+.lyserød {
     background-color: var(--lyserød);
 }
-.blå{
+
+.blå {
     background-color: var(--lyseblå);
 }
-.gul{
+
+.gul {
     background-color: var(--gul);
 }
-.orange{
+
+.orange {
     background-color: var(--orange);
 }
+
+
 /* farver slut */
 
 
-
 /* produkt del */
-.productSection{
+
+.productSection {
     width: 100vw;
 }
-.productSection h2{
+
+.productSection h2 {
     margin-top: 28vw;
     margin-bottom: 0;
     font-family: 'Organo';
@@ -622,7 +629,8 @@ footer {
     text-align: center;
     justify-content: center;
 }
-.productImg{
+
+.productImg {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -631,23 +639,27 @@ footer {
     width: 100%;
     height: 38vw;
 }
+
+
 /* .product{
     display: flex;
 } */
+
 
 /* #products img{
     width: 25vh;
     height: 25vw;
 } */
 
-#productFront{
+#productFront {
     width: 25vh;
 }
 
-.product{
+.product {
     width: 25vh;
 }
-.valgt{
+
+.valgt {
     display: flex;
 }
 
@@ -658,19 +670,24 @@ footer {
 .productImg a {
     text-decoration: none;
     color: black;
-
 }
-.fa-circle-chevron-right, .fa-circle-chevron-left{
+
+.fa-circle-chevron-right,
+.fa-circle-chevron-left {
     font-size: 4vh;
     text-decoration: none;
 }
+
+
 /* Produkt del slut */
 
 
 /* Stor halvcirkel */
-section .dotLarge{
+
+section .dotLarge {
     float: right;
 }
+
 #dotLarge {
     height: 15vh;
     width: 30vh;
@@ -682,64 +699,76 @@ section .dotLarge{
     position: absolute;
     margin-top: -18vh;
     /* margin-left: 30%; */
-    right:-7.5vh;
+    right: -7.5vh;
     z-index: -10;
 }
+
+
 /* Stor halvcirkel slut */
 
 
 /* Små cirkler */
-.smallDots{
+
+.smallDots {
     width: 90vw;
     display: flex;
     justify-content: space-evenly;
     margin: 2vh auto 2vh auto;
 }
-.dot {
 
+.dot {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     display: inline-block;
 }
+
+
 /* border om aktiv cirkel */
-.active{
+
+.active {
     border: 1px solid black;
 }
+
+
 /* Små cirkler slut */
 
 
 /* Beskrivelse af produktet */
-.textbox{
+
+.textbox {
     padding: 2vh;
     border-radius: 10px;
 }
 
-.textbox p{
+.textbox p {
     margin-block-end: 0;
     /* margin-block-start: 0; */
 }
 
-.kaninBe{
+.kaninBe {
     margin: 4vh 2vh 4vh 2vh;
 }
 
-.textbox h3{
+.textbox h3 {
     font-family: 'Helvetica';
     font-weight: bold;
     font-style: italic;
     margin: 0;
 }
+
 .beskrivelse {
     font-family: 'Helvetica';
     font-weight: normal;
     font-style: normal;
 }
-.vigtig{
+
+.vigtig {
     font-weight: bold;
     font-style: italic;
 }
-.textbox h4{
+
+.textbox h4 {
     font-family: 'Helvetica';
     font-weight: bold;
     font-style: italic;
@@ -747,23 +776,35 @@ section .dotLarge{
     margin-bottom: 0;
     margin-top: 2vh;
 }
+
+.btn-tilf {
+    margin-left: 79%;
+}
+
+.olie .btn-tilf {
+    margin-left: 44vw;
+}
+
+
 /* Beskrivelse af produktet slut*/
 
 
 /* Forslag af andre produkter */
-.persuasive{
+
+.persuasive {
     font-family: 'Helvetica';
     font-weight: bold;
     text-align: center;
 }
-.persuasive h3{
+
+.persuasive h3 {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: bold;
     font-size: 6vw;
 }
 
-.forslag{
+.forslag {
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
@@ -771,61 +812,70 @@ section .dotLarge{
     margin: auto;
 }
 
-.forslag a{
+.forslag a {
     width: 30vw;
     /* align-items: center; */
 }
 
-.pforslag{
+.pforslag {
     width: 23vw;
 }
-.stor{
+
+.stor {
     width: 20vw;
 }
+
+
 /* Forslag af andre produkter slut*/
 
+
 /* Husk kokosolie */
-.huskKokos{
+
+.huskKokos {
     margin-top: 4vh;
 }
 
-.huskKokos h2{
+.huskKokos h2 {
     font-family: 'Organo';
     font-size: 4vh;
     text-align: center;
 }
 
-.olie{
+.olie {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 4vh 2vh 4vh 2vh;
 }
-.kokosBillede{
+
+.kokosBillede {
     width: 28vw;
     height: 100%;
 }
 
-.olie section{
+.olie section {
     width: 60vw;
 }
 
-.olie section h3{
-    font-size: 2vh ;
+.olie section h3 {
+    font-size: 2vh;
 }
 
-.bkokos{
+.bkokos {
     /* margin-block-start: 0; */
     font-size: 1.5vh;
 }
 
 
-
 /* Husk kokosolie slut */
+
+
 /* Detaljeret side slut */
 
+
 /*indkøbskurv*/
-.boxkurv{
+
+.boxkurv {
     width: 86%;
     padding: 0 20px 5px 20px;
     background-color: #F1ECE8;
@@ -836,28 +886,32 @@ section .dotLarge{
     margin-left: auto;
     border-radius: 10px;
 }
-.kaninimg{
-    width: 35% ;
-    height: 30%;
-    margin-right: 90%;
+
+.kaninimg {
+    width: 130px;
+    height: 100px;
+    margin-right: 185px;
     margin-top: -20px;
     margin-left: auto;
 }
-.boxkurv h3{
+
+.boxkurv h3 {
     padding-top: 20px;
 }
-.kaninpris{
+
+.kaninpris {
     padding-left: 192px;
     margin-top: -60px;
 }
-.kanin{
+
+.kanin {
     text-align: left;
-    font-size: 3vh;
-    margin-top: -7px;
+    font-size: 18px;
+    margin-top: -20px;
     
 }
 .farve{
-    font-size: 1.5vh;
+    font-size: 16px;
     text-align: left;
     margin-top: -20px;
     font-family: 'Helvetica';
@@ -865,95 +919,122 @@ section .dotLarge{
     font-style: normal;
 }
 .antal{
-    font-size: 1.5vh;
+    font-size: 16px;
     text-align: left;
-    margin-top: -15px;
+    margin-top: -20px;
    font-family: 'Helvetica';
    font-weight: normal;
    font-style: normal;
 }
 .fjern{
-    font-size: 1.5vh;
+    font-size: 14px;
    text-align: right;
    font-family: 'Helvetica';
    font-weight: normal;
    font-style: normal;
 }
-.linje{
+
+.linje {
     width: 90%;
 }
 .kokosimg{
-   width: 15%;
-   height: 10%;
-   margin-right: 90%;
-   margin-left: auto;
+   width: 100px;
+   height: 145px;
+   margin-right: 200px;
 }
-.prisolie{
+
+.prisolie {
     margin-top: -80px;
    padding-left: 192px;
+    position: absolute;
 }
-.oil{
-    margin-top: 36px;
+.Mængde{
+   font-size: 16px;
+   text-align: left;
+   margin-top: -20px;
+   font-family: 'Helvetica';
+   font-weight: normal;
+   font-style: normal;
+}
+.kokos{
+   text-align: left;
+   font-size: 18px;
+   margin-top: -20px;
 }
 .boxpris{
    margin-top: auto;
 }
 .sub{
    text-align: left;
-   font-size: 2.5vh;
+   font-size: 20px;
 }
 .prissub{
    text-align: right;
-   font-size: 2.5vh;
+   font-size: 20px;
    margin-top:-37px ;
 }
 .lev{
    text-align: left;
-   font-size: 2.5vh;
+   font-size: 20px;
 }
 .prislev{
    text-align: right;
-   font-size: 2.5vh;
+   font-size: 20px;
    margin-top: -37px;
 }
 .ialt{
-   font-size: 2.5vh;
+   font-size: 20px;
    text-align: left;
 }
 .prisialt{
    text-align: right;
-   font-size: 2.5vh;
+   font-size: 20px;
+}
+.prisknap{
+    border-radius:20px ;
+    font-size: 20px;
+    margin-left: -150px ;
+    position: absolute; 
+    margin-top: -30px;  
 }
 .rabatkode{
     text-align: left;
     font-size: 3vh;
 }
-#tilf{
-    margin-top: -30px;
-    margin-left: 190px;
-}
 .rabatkasse{
     text-align: left;
     margin-top: -20px;
 }
-.rabat{
-   margin-top: auto;
+
+.rabat {
+    margin-top: auto;
+}
+.tilf{
+   border-radius: 20px;
+   font-size: 20px;
+   margin-right: -120px;
 }
 .betaling{
    text-align: left;
    margin-top: -20px;
 }
+.mpay{
+   margin-left: -120px;
+}
 .andre{
-   font-size: 3vh;
+   font-size: 30px;
    text-align: center;
 }
-.andre1{ 
-   display: flex;
-   justify-content: space-evenly;
+
+.andre1 {
+    display: flex;
+    justify-content: space-evenly;
 }
-.mpay{
-   height: 49px;
+
+.mpay {
+    height: 49px;
 }
+
 
 /*Informationside styling*/
 
@@ -964,9 +1045,149 @@ section .dotLarge{
     background-color: #F1ECE8;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
+    margin-top: 130px;
+    margin-bottom: 20px;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.section-formular header {
+    background-color: #F1ECE8
+}
+
+.section-formular input {
+    height: 30px;
+    border: 1px solid black;
+}
+
+.payment form {
+    display: flex;
+    flex-direction: column;
+}
+
+.gls {
+    margin-top: 30px;
+}
+
+.gls iframe {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.gls img {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.payment {
+    margin-top: 30px;
+}
+
+.banner-payment {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.banner-payment img {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.banner-payment h1 {
+    text-align: center;
+    color: #E2E6E5;
+    font-family: 'organo';
+    font-size: 3vw;
+    margin-top: -35%;
+}
+
+form img {
+    width: 20%;
+    margin-left: 20px;
+}
+
+
+/*Kurv*/
+
+.section-beløb {
+    line-height: 1
+}
+
+.section-kurv p {
+    text-align: left;
+    margin: 0;
+}
+
+.kurv-img {
+    width: 40%;
+}
+
+.kurv-img2 {
+    width: 20%;
+}
+
+p.kurv-fjern {
+    text-align: right;
+}
+
+.beløb {
+    text-align: right;
+    margin-top: -40px;
+}
+
+hr {
+    color: black
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-column p {
+    display: flex;
+    flex: 45%;
+    width: 45%
+}
+
+.pull {
+    margin-top: 30px;
+}
+
+.rabat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rabat img {
+    width: 35%;
+}
+
+.købte-også {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.købte-også header {
+    background-color: transparent;
+}
+
+.købte-også div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.købte-også div img {
+    width: 20%;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 800px) {
@@ -1070,6 +1291,9 @@ section .dotLarge{
         max-height: 30vw;
         max-width: 62.5%;
     }
+    .box4 img {
+        object-fit: contain;
+    }
     .box5 {
         max-height: 30vw;
         max-width: 30%;
@@ -1107,154 +1331,130 @@ section .dotLarge{
     .btn4 {
         width: 60%
     }
-/* footer slut */
-
-/* detaljeret side start */
-/* detaljeret side styling */
-
-
-/* produkt del */
-
-.detalside{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100vw;
-    align-items: center;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
-}
-.title{
-    margin-top: 4vw;
-    margin-bottom: 0;
-    font-family: 'Organo';
-    font-size: 6vw;
-    justify-content: center;
-
-}
-
-.productImg{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 3vh 0vh 3vh 0vh;
-    width: 100%;
-    height: 26vw;
-}
-
-/* Stor halvcirkel */
-section .dotLarge{
-    float: right;
-}
-#dotLarge {
-    height: 22vh;
-    width: 44vh;
-    border-top-right-radius: 44vh;
-    border-top-left-radius: 44vh;
-    margin-top: -23.5vh;
-    right:-11vh;
-}
-/* Stor halvcirkel slut */
-
-/* Små cirkler */
-.smallDots{
-    width: 40vw;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-}
-.dot {
-
-    height: 50px;
-    width: 50px;
-}
-
-.kaninBe{
-    margin: 0vh 4vh 0vh 4vh;
-}
-
-.persuasive{
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-}
-
-.persuasive h3{
-    font-size: 3.5vw;
-    margin-top: 0;
-    margin-bottom: 2vw;
-}
-
-
-.huskKokos h2{
-    font-size: 4.8vw;
-    
-}
-
-
-.olie{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 4vh 0vh 4vh 0vh;
-}
-
-.olieCon{
-    width: 25vw;
-    display: flex;
-    /* justify-content: space-evenly; */
-}
-
-.kokosBillede{
-    width: 13vw;
-    height: 100%;
-    margin-left: 4vw;
-}
-
-.olie section{
-    width: 30vw;
-}
-
-.behandling{
-    width: 25vw;
-    /* height: 32vw; */
-    height: 15vw;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-
-/* Stor halvcirkel */
-section .dotLarge2{
-    float: right;
-}
-#dotLarge2 {
-    width: 30vw;
-    height: 35vw;
-    border-top-right-radius: 100%;
-    border-top-left-radius: 0%;
-    border-bottom-right-radius: 0%;
-    border-bottom-left-radius: 0%;
-    margin-top: 5vw;
-    z-index: -10;
-    position: absolute;
-
-    /* height: 15vh;
+    /* footer slut */
+    /* detaljeret side start */
+    /* detaljeret side styling */
+    /* produkt del */
+    .detalside {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
+        align-items: center;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    .title {
+        margin-top: 4vw;
+        margin-bottom: 0;
+        font-family: 'Organo';
+        font-size: 6vw;
+        justify-content: center;
+    }
+    .productImg {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 3vh 0vh 3vh 0vh;
+        width: 100%;
+        height: 26vw;
+    }
+    /* Stor halvcirkel */
+    section .dotLarge {
+        float: right;
+    }
+    #dotLarge {
+        height: 22vh;
+        width: 44vh;
+        border-top-right-radius: 44vh;
+        border-top-left-radius: 44vh;
+        margin-top: -23.5vh;
+        right: -11vh;
+    }
+    /* Stor halvcirkel slut */
+    /* Små cirkler */
+    .smallDots {
+        width: 40vw;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .dot {
+        height: 50px;
+        width: 50px;
+    }
+    .kaninBe {
+        margin: 0vh 4vh 0vh 4vh;
+        width: 47%;
+    }
+    .persuasive {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .persuasive h3 {
+        font-size: 3.5vw;
+        margin-top: 0;
+        margin-bottom: 2vw;
+    }
+    .huskKokos h2 {
+        font-size: 4.8vw;
+    }
+    .olie {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 4vh 0vh 4vh 0vh;
+    }
+    .olie .btn-tilf {
+        margin-left: 78%;
+    }
+    .olieCon {
+        width: 25vw;
+        display: flex;
+        /* justify-content: space-evenly; */
+    }
+    .kokosBillede {
+        width: 13vw;
+        height: 100%;
+        margin-left: 4vw;
+    }
+    .olie section {
+        width: 30vw;
+    }
+    .behandling {
+        width: 25vw;
+        /* height: 32vw; */
+        height: 15vw;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    /* Stor halvcirkel */
+    section .dotLarge2 {
+        float: right;
+    }
+    #dotLarge2 {
+        width: 30vw;
+        height: 35vw;
+        border-top-right-radius: 100%;
+        border-top-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+        margin-top: 5vw;
+        z-index: -10;
+        position: absolute;
+        /* height: 15vh;
     width: 30vh;
     border-top-right-radius: 30vh;
     border-top-left-radius: 30vh; */
-    /* transform: rotate(-90deg); */
-    /* display: inline-block;
+        /* transform: rotate(-90deg); */
+        /* display: inline-block;
 
     margin-top: -18vh;
     right:-7.5vh;
  */
-}
-/* Stor halvcirkel slut */
-
-
-
-
-/* .productSection{
+    }
+    /* Stor halvcirkel slut */
+    /* .productSection{
     width: 100vw;
 
 .productImg{
@@ -1271,14 +1471,9 @@ section .dotLarge2{
 .fa-circle-chevron-right, .fa-circle-chevron-left{
     font-size: 4vh;
 } */
-/* Produkt del slut */
-
-
-
-
-
-/* Små cirkler */
-/* .smallDots{
+    /* Produkt del slut */
+    /* Små cirkler */
+    /* .smallDots{
     width: 90vw;
     display: flex;
     justify-content: space-evenly;
@@ -1291,15 +1486,13 @@ section .dotLarge2{
     border-radius: 50%;
     display: inline-block;
 } */
-/* border om aktiv cirkel */
-/* .active{
+    /* border om aktiv cirkel */
+    /* .active{
     border: 1px solid black;
 } */
-/* Små cirkler slut */
-
-
-/* Beskrivelse af produktet */
-/* .textbox{
+    /* Små cirkler slut */
+    /* Beskrivelse af produktet */
+    /* .textbox{
     padding: 2vh;
     border-radius: 10px;
 }
@@ -1335,11 +1528,9 @@ section .dotLarge2{
     margin-bottom: 0;
     margin-top: 2vh;
 } */
-/* Beskrivelse af produktet slut*/
-
-
-/* Forslag af andre produkter */
-/* .persuasive{
+    /* Beskrivelse af produktet slut*/
+    /* Forslag af andre produkter */
+    /* .persuasive{
     font-family: 'Helvetica';
     font-weight: bold;
     text-align: center;
@@ -1357,10 +1548,9 @@ section .dotLarge2{
 .stor{
     width: 20vw;
 } */
-/* Forslag af andre produkter slut*/
-
-/* Husk kokosolie */
-/* .huskKokos{
+    /* Forslag af andre produkter slut*/
+    /* Husk kokosolie */
+    /* .huskKokos{
     margin-top: 4vh;
 }
 
@@ -1378,11 +1568,8 @@ section .dotLarge2{
 .bkokos{
     font-size: 1.5vh;
 } */
-
-/* Husk kokosolie slut */
-
-/* detaljeret side slut */
-
+    /* Husk kokosolie slut */
+    /* detaljeret side slut */
     @media (max-width: 1200px) {
         .btn {
             margin-top: 80px;
@@ -1431,13 +1618,247 @@ section .dotLarge2{
     .mobile {
         display: none;
     }
-
-      /* inkøbskurv */
-
-.flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /* inkøbskurv */
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #flex2 {
+        flex-direction: column;
+    }
+    .inkobs {
+        height: 60vw;
+        width: 55vw;
+        flex: 50%;
+    }
+    .kaninimg {
+        margin-left: -400px;
+        width: 12vw;
+        height: 10vw;
+    }
+    .boxkurv h3 {
+        padding-top: 20px;
+    }
+    .din {
+        font-size: 30px;
+    }
+    .kaninpris {
+        padding-left: 530px;
+        position: absolute;
+        margin-top: -150px;
+    }
+    .kanin {
+        padding-left: 250px;
+        font-size: 20px;
+    }
+    .farve {
+        font-size: 16px;
+        text-align: left;
+        margin-top: -20px;
+        font-family: 'Helvetica';
+        font-weight: normal;
+        font-style: normal;
+    }
+    .antal {
+        font-size: 16px;
+        text-align: left;
+        margin-top: -20px;
+        font-family: 'Helvetica';
+        font-weight: normal;
+        font-style: normal;
+    }
+    .fjern {
+        font-size: 14px;
+        text-align: right;
+        font-family: 'Helvetica';
+        font-weight: normal;
+        font-style: normal;
+    }
+    .linje {
+        width: 90%;
+    }
+    .kokosimg {
+        width: 100px;
+        height: 145px;
+        margin-right: 200px;
+    }
+    .prisolie {
+        margin-top: -80px;
+        padding-left: 192px;
+        position: absolute;
+    }
+    .Mængde {
+        font-size: 16px;
+        text-align: left;
+        margin-top: -20px;
+        font-family: 'Helvetica';
+        font-weight: normal;
+        font-style: normal;
+    }
+    .kokos {
+        text-align: left;
+        font-size: 18px;
+        margin-top: -20px;
+    }
+    .boxpris {
+        margin-top: auto;
+        height: 18vw;
+        width: 35vw;
+    }
+    .sub {
+        text-align: left;
+        font-size: 20px;
+    }
+    .prissub {
+        text-align: right;
+        font-size: 20px;
+        margin-top: -37px;
+    }
+    .lev {
+        text-align: left;
+        font-size: 20px;
+    }
+    .prislev {
+        text-align: right;
+        font-size: 20px;
+        margin-top: -37px;
+    }
+    .ialt {
+        font-size: 20px;
+        text-align: left;
+        margin-top: -30px;
+    }
+    .prisialt {
+        text-align: right;
+        font-size: 20px;
+    }
+    .prisknap {
+        border-radius: 20px;
+        font-size: 20px;
+        margin-left: -150px;
+        position: absolute;
+        margin-top: -30px;
+    }
+    .rabatkode {
+        text-align: left;
+        font-size: 25px;
+    }
+    .rabatkasse {
+        text-align: left;
+        margin-top: -20px;
+    }
+    .rabat {
+        margin-top: auto;
+        width: 35vw;
+        height: 20.4vw;
+    }
+    .tilf {
+        border-radius: 20px;
+        font-size: 20px;
+        margin-right: -120px;
+    }
+    .betaling {
+        text-align: left;
+        margin-top: -20px;
+    }
+    .andre {
+        font-size: 30px;
+        text-align: center;
+    }
+    .andre1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .mpay {
+        height: 88px;
+    }
+    .boxkurv {
+        margin-top: 0%;
+    }
+    /*Informationside styling*/
+    .section-formular {
+        display: flex;
+        width: 45%;
+        justify-content: center;
+        background-color: #F1ECE8;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        padding: 0 20px 20px 20px;
+        border-radius: 10px;
+    }
+    .section-formular header {
+        background-color: #F1ECE8
+    }
+    .section-formular input {
+        height: 30px;
+        margin-top: 20px;
+        border: 1px solid black;
+    }
+    .payment form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .payment form img {
+        width: 12%;
+    }
+    .gls {
+        margin-top: 0px;
+        width: 45%;
+    }
+    .gls iframe {
+        height: 70%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .gls img {
+        width: 20%;
+        margin-top: 10px;
+    }
+    .payment {
+        width: 45%;
+        margin: 30px;
+    }
+    .banner-payment {
+        height: 200px;
+        width: 45%;
+        padding: 0px;
+    }
+    .banner-payment img {
+        width: 100%;
+        height: 100%;
+    }
+    .banner-payment h1 {
+        text-align: center;
+        color: #E2E6E5;
+        font-family: 'organo';
+        font-size: 2vw;
+        margin-top: -37%;
+    }
+    .container-row {
+        display: flex;
+        flex-direction: row;
+        columns: 2;
+    }
+    /*Kurv*/
+    .pull {
+        height: 60%;
+    }
+    .section-rabat {
+        height: 19.5vw;
+        position: absolute;
+        right: 0.5%;
+        margin-top: -21%;
+    }
+    .section-rabat h2 {
+        margin-bottom: 0px
+    }
+    .section-rabat img {
+        max-width: 120px;
+        max-height: 90px;
+    }
 }
 #flex2{
     flex-direction: column;
@@ -1450,7 +1871,7 @@ section .dotLarge2{
 }
 
 .kaninimg{
-    margin-left: -40px;
+    margin-left: -400px;
     width:12vw ;
     height: 10vw;
 }
@@ -1463,35 +1884,63 @@ section .dotLarge2{
 
 }
 .kaninpris{
-    
+    padding-left: 530px;
+    position: absolute;
+    margin-top: -150px;
 }
 .kanin{
- 
+ padding-left: 250px;
+ font-size: 20px;
     
 }
 .farve{
-    
+    font-size: 16px;
+    text-align: left;
+    margin-top: -20px;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-style: normal;
 }
 .antal{
-    
+    font-size: 16px;
+    text-align: left;
+    margin-top: -20px;
+   font-family: 'Helvetica';
+   font-weight: normal;
+   font-style: normal;
 }
 .fjern{
-    
+    font-size: 14px;
+   text-align: right;
+   font-family: 'Helvetica';
+   font-weight: normal;
+   font-style: normal;
 }
 .linje{
     width: 90%;
 }
 .kokosimg{
- 
+   width: 100px;
+   height: 145px;
+   margin-right: 200px;
 }
 .prisolie{
-  
+    margin-top: -80px;
+   padding-left: 192px;
+    position: absolute;
 }
 .Mængde{
-   
+   font-size: 16px;
+   text-align: left;
+   margin-top: -20px;
+   font-family: 'Helvetica';
+   font-weight: normal;
+   font-style: normal;
 }
 .kokos{
-   
+   text-align: left;
+   font-size: 18px;
+   margin-top: -20px;
 }
 .boxpris{
    margin-top: auto;
@@ -1499,31 +1948,46 @@ section .dotLarge2{
    width: 35vw;
 }
 .sub{
-   
+   text-align: left;
+   font-size: 20px;
 }
 .prissub{
-   
+   text-align: right;
+   font-size: 20px;
+   margin-top:-37px ;
 }
 .lev{
-   
+   text-align: left;
+   font-size: 20px;
 }
 .prislev{
-  
+   text-align: right;
+   font-size: 20px;
+   margin-top: -37px;
 }
 .ialt{
-  
+   font-size: 20px;
+   text-align: left;
+   margin-top: -30px;
 }
 .prisialt{
-   
+   text-align: right;
+   font-size: 20px;
 }
 .prisknap{
-    
+    border-radius:20px ;
+    font-size: 20px;
+    margin-left: -150px ;
+    position: absolute; 
+    margin-top: -30px;  
 }
 .rabatkode{
-   
+    text-align: left;
+    font-size: 25px;
 }
 .rabatkasse{
-    
+    text-align: left;
+    margin-top: -20px;
 }
 .rabat{
    margin-top: auto;
@@ -1531,13 +1995,17 @@ section .dotLarge2{
    height: 20.4vw;
 }
 .tilf{
- 
+   border-radius: 20px;
+   font-size: 20px;
+   margin-right: -120px;
 }
 .betaling{
- 
+   text-align: left;
+   margin-top: -20px;
 }
 .andre{
-  
+   font-size: 30px;
+   text-align: center;
 }
 .andre1{ 
    display: flex;
