@@ -287,12 +287,15 @@ Header {
     display: flex;
     font-size: 12px;
     justify-content: center;
+    
     cursor: pointer;
     position: relative;
     font-family: "Helvetica";
     font-weight: bold;
     margin-top: 0px;
 }
+
+
 
 .btn-primary {
     background-color: var(--nav-color);
@@ -444,9 +447,7 @@ img {
     width: 100%;
 }
 
-.box h3,
-h4,
-p {
+.box h3, .box h4, .box p {
     text-align: center;
 }
 
@@ -1240,8 +1241,12 @@ hr {
     .logo {
         height: 110px
     }
+    .brand-title-foot{
+        align-items: center;
+        /* justify-content: center; */
+    }
     .logo-foot {
-        height: 260px
+        height: 20vw
     }
     .brand-title {
         width: 30vw
@@ -1333,7 +1338,8 @@ hr {
         max-height: 30vw;
         max-width: 30%;
         font-family: "Helvetica";
-        line-height: 1
+        line-height: 1;
+       
     }
     .box5 h2 {
         font-size: 26px;
@@ -1364,6 +1370,8 @@ hr {
         width: 60%
     }
     .btn4 {
+       
+        margin-top: 17vw;
         width: 60%
     }
     /* footer slut */
@@ -1605,11 +1613,7 @@ hr {
 } */
     /* Husk kokosolie slut */
     /* detaljeret side slut */
-    @media (max-width: 1200px) {
-        .btn {
-            margin-top: 80px;
-        }
-    }
+  
     /*Footer styling*/
     footer {
         padding-left: 5%;
